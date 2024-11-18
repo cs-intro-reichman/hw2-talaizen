@@ -9,6 +9,7 @@ public class Cheers {
                 String prefix = ("AEFHILMNORSX".indexOf(currentChar) >= 0) ? "a": "an";
                 System.out.println("Give me "+ prefix + " " + currentChar + ": " + currentChar + "!");
             }
+            System.out.println("What does that spell?");
             for (int j = 0; j < itarations; j++){
                 System.out.println(cheeringWord + "!!!");
             }
