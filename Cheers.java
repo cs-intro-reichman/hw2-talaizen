@@ -6,7 +6,7 @@ public class Cheers {
             int itarations = Integer.parseInt(args[1]);
             for (int i = 0; i < cheeringWord.length(); i ++){
                 char currentChar = cheeringWord.charAt(i);
-                String prefix = ("AEFHILMNORSX".indexOf(currentChar) != -1) ? "an": "a";
+                String prefix = ("AEFHILMNORSX".indexOf(currentChar) != -1) ? "an": "a ";
                 System.out.println("Give me "+ prefix + " " + currentChar + ": " + currentChar + "!");
             }
             System.out.println("What does that spell?");
