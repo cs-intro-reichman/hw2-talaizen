@@ -10,7 +10,6 @@ public class CalcPi {
 		double sum = 1.0;
 		double approxPi = 0;
 		for (int i = 1; i < terms; i ++){
-			System.err.println(operator * ((double) 1/ denominator));
 			sum = sum + (operator * ((double) 1/ denominator));
 			denominator += 2;
 			operator *= -1;
